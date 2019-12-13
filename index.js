@@ -64,6 +64,6 @@ function isMinaTag(tag) {
   return tag && MINA_BUILTIN_TAGS.indexOf(tag) !== -1
 }
 
-isMinaTag.TAGS = MINA_BUILTIN_TAGS
+isMinaTag.TAGS = MINA_BUILTIN_TAGS.concat()
 
 module.exports = isMinaTag
