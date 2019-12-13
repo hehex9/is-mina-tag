@@ -1,4 +1,4 @@
-const MINA_BUILTIN_TAGS = [
+var MINA_BUILTIN_TAGS = [
   'cover-image',
   'cover-view',
   'movable-area',
@@ -60,4 +60,10 @@ const MINA_BUILTIN_TAGS = [
  * @param {string} tag
  * @returns {boolean}
  */
-module.exports = tag => tag && MINA_BUILTIN_TAGS.indexOf(tag) !== -1
+function isMinaTag(tag) {
+  return tag && MINA_BUILTIN_TAGS.indexOf(tag) !== -1
+}
+
+isMinaTag.TAGS = MINA_BUILTIN_TAGS
+
+module.exports = isMinaTag
