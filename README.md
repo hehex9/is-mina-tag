@@ -1,8 +1,8 @@
 # is-mina-tag
 
-## Overview
-
 check if a tag is [mina-tag](https://developers.weixin.qq.com/miniprogram/en/dev/component/)
+
+## Usage
 
 ```js
 const isMinaTag = require('is-mina-tag')
