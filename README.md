@@ -11,8 +11,13 @@ isMinaTag('view') // true
 isMinaTag('input') // true
 isMinaTag('switch') // true
 isMinaTag('my-custom-component') // false
+isMinaTag('wxs') // true
 // ...
 ```
+
+## See also
+
+[using-components](https://github.com/hehex9/using-components)
 
 
 ## License

@@ -54,6 +54,8 @@ var MINA_BUILTIN_TAGS = [
 
   'block',
   'slot',
+
+  'wxs',
 ]
 
 /**

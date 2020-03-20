@@ -1,6 +1,15 @@
 {
   "name": "is-mina-tag",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "is mina tag?",
+  "keywords": [
+    "miniprogram",
+    "小程序"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hehex9/is-mina-tag"
+  }
 }
